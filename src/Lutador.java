@@ -112,9 +112,9 @@ public class Lutador implements MetodosDeLuta {
         System.out.println("---------------APRESENTAÇÃO---------------");
         System.out.println("Chegou o lutador " + this.getNome());
         System.out.println("Nacionalidade: " + this.getNacionalidade());
-        System.out.println(this.getIdade() + " anos");
-        System.out.println("com " + this.getAltura() + " de altura");
-        System.out.println("pesando: " + this.getPeso() + "Kg");
+        System.out.println("Idade: " + this.getIdade() + " anos");
+        System.out.println("Altura: " + this.getAltura());
+        System.out.println("Peso: " + this.getPeso() + "Kg");
         System.out.println("Ganhou: " + this.getVitorias());
         System.out.println("Perdeu: " + this.getDerrotas());
         System.out.println("Empatou: " + this.getEmpates());

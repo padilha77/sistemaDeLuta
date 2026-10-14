@@ -10,10 +10,13 @@ public class Main {
         l[1] = new Lutador("Dylan",34, 90.8f, 1.83f, "russo", 12, 3, 5);
         l[2] = new Lutador("Ferrer",54, 103.6f, 1.90f, "africana", 12, 5, 7);
         l[3] = new Lutador("Trinit",28, 115.3f, 1.85f, "europeia", 1, 1, 1);
-        l[4] = new Lutador("Winnit",33, 70.0f, 1.71f, "francesa", 4, 3, 8);
+        l[4] = new Lutador("Winnit",33, 75.0f, 1.71f, "francesa", 4, 3, 8);
         l[5] = new Lutador("Jota ",21, 77.7f, 1.77f, "brasileiro", 15, 0, 1);
 
+        Luta uefc = new Luta();
 
+        uefc.marcarLuta(l[5], l[4]);
+        uefc.lutar();
 
     }
 }
