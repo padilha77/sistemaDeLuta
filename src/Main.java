@@ -13,10 +13,7 @@ public class Main {
         l[4] = new Lutador("Winnit",33, 70.0f, 1.71f, "francesa", 4, 3, 8);
         l[5] = new Lutador("Jota ",21, 77.7f, 1.77f, "brasileiro", 15, 0, 1);
 
-        l[3].status();
 
-        l[5].status();
-        l[5].ganharLuta();
-        l[5].status();
+
     }
 }

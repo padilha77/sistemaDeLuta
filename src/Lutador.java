@@ -48,7 +48,7 @@ public class Lutador implements MetodosDeLuta {
         this.setCategoria();
     }
 
-    private void setCategoria() {
+    public void setCategoria() {
         if (peso < 52.5) {
             categoria = "Inválido";
         } else if (this.peso > 52.5 && this.peso < 70.3) {
@@ -60,6 +60,10 @@ public class Lutador implements MetodosDeLuta {
         } else {
             categoria = "Inválida";
         }
+    }
+
+    public String getCategoria() {
+        return categoria;
     }
 
     public float getAltura() {
