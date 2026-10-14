@@ -14,9 +14,10 @@ public class Main {
         l[5] = new Lutador("Jota ",21, 77.7f, 1.77f, "brasileiro", 15, 0, 1);
 
         Luta uefc = new Luta();
-
+        l[5].status();
         uefc.marcarLuta(l[5], l[4]);
         uefc.lutar();
+        l[5].status();
 
     }
 }
